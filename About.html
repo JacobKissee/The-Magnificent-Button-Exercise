@@ -1,9 +1,13 @@
+<!-- My First GitHub Repository (about.html) -->
+
+
 <!DOCTYPE html>
 <html>
 	<head>
-		<title>About</title>
+		<title>About Button Exercise</title>
 		<meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1.0">
 		<link rel="stylesheet" href="./about.css">
+<!-- It's got to have a little bit of style! -->
 		<style>
 
 			body {
@@ -19,7 +23,8 @@
 				display: flex;
 				flex-direction: column;
 				padding: 1em 1em;
-				margin-bottom: 35em;
+				margin-bottom: 5em;
+				justify-content: center;
 				border: .2em solid #97929226;
 				border-radius: .25em;
 				background-color: #d5a97132;
@@ -38,22 +43,41 @@
 				text-wrap:inherit;
 
 			}
-
-			.footer {
-				font-family: 'Times New Roman', Times, serif;
+		
+			.bottom-container {
 				display: flex;
-				justify-content: center;
+				flex-direction: column;
 				align-items: center;
-				width: 32.5%;
-				border: .025em solid #97929207;
+				justify-content: center;
+				width: 25%;
+				margin-bottom: 5em;
+				padding: 1em 1em;
+				border: .2em solid #99888826;
 				border-radius: .25em;
-				background-color: #e9bf8725;
-				box-shadow: -.1em 1em 1em #00000010;
-				text-decoration: underline;
+				background-color: #d5a97132;
+				box-shadow: -.8em 1em 1em #00000014;
 			}
 
+			.bottom-container p {
+				font-family: 'Courier New', Courier, monospace;
+				color: #000000;
+				margin: 1em 0;
+			}
+
+			.link {
+				font-family: 'Courier New', Courier, monospace;
+				color: #1b1c26;
+				text-decoration: none;
+				font-weight: bold;
+				font-size: 1em;
+				transition: color 0.2s ease-in-out;
+			}
+			.link:hover {
+				color: #000000;
+			}
 		</style>
 	</head>
+<!-- Okay thats enough style. Lets move on the the body, shall we? -->
 	<body>
 		<div class="container">
 			<h1>
@@ -66,19 +90,21 @@
 				performing this button exercise. So, I wanted to share it with 
 				you guys. I welcome all feedback, suggestions, and critiques. 
 				Thankyou for checking out my first repository. 
-        Have a great day!
+        		Have a great day!
+			</p>
+		</div>
+		<div class="bottom-container">
+			<p>
+				- Jacob G. Kissee
+			</p>
+			<p class="link">
+				<a href="https://github.com/jgkissee/The-Magnificent-Button-Exercise">GitHub Repository</a>
 			</p>
 		</div>
 	</body>
-	<footer class="footer">
-			<p>
-				  - Jacob G. Kissee
-			</p>
-
-	</footer>
 </html>
-
-
+<!-- This is the end of the "about" page. Thank you for taking the time out of your day to check it out!-->
+<!-- - Jacob G. Kissee -->
 
 
 	

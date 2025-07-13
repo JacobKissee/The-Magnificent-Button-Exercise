@@ -1,27 +1,8 @@
+/* My First GitHub Repository (buttons.css) - Jacob G. Kissee */
 
-/* "Buttons" CSS Document */
-.link-text {
-  font-size: 1.5rem;
-  text-align: center;
-  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-  color: #000000;
-  text-decoration: none;
-  transition: color 0.3s ease-in-out, text-shadow 0.3s ease-in-out;
-}
 
-.about-link {
-  color: #3e76fa;
-  transition: ease-in-out 0.1s;
-}
 
-.about-link:hover {
-  color: #8e00ae;
-}
-
-.about-link:active {
-  color: #ffffff;
-  text-shadow: 0 0 1em #cff5ff, 0 0 2rem #b278eb, 0 0 10rem #c093fa, 0 0 20rem #ff64ff, 0 0 30rem #a400a4, 0 0 10rem #910091, 0 0 20rem #4a054a;
-}
+/* "buttons" Styles */
 
 .button-header {
   font-size: 5rem;
@@ -29,6 +10,7 @@
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   animation: glow 10s infinite, color 2s infinite;
   -webkit-text-stroke: .1rem #ffffff;
+  margin-top: 2.5em; 
 }
 @keyframes glow {
   0% { text-shadow: 0 0 1em #cff5ff, 0 0 2rem #b278eb, 0 0 10rem #c093fa, 0 0 20rem #ff64ff, 0 0 30rem #a400a4, 0 0 10rem #910091, 0 0 80rem #4a054a; }
@@ -47,7 +29,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  margin-top: -2%;
+  margin-top: 10%;
   min-height: 100vh;
   gap: 3rem;
 }
@@ -123,6 +105,7 @@ cursor: pointer;
 
 
 /* Amazon "Add to Cart" Button */
+
 .amazon-button {
   background-color: rgb(255, 216, 20);
   color: black;
@@ -143,6 +126,7 @@ cursor: pointer;
 
 
 /* Uber "Request now" Button */
+
 .uber-button {
   background-color: rgb(0, 0, 0);
   color: white;
@@ -159,7 +143,9 @@ cursor: pointer;
 }
 
 
+
 /* GitHub "Sign up" Button */
+
 .github-button {
   background: linear-gradient(180deg, #21ca03 10%, #018d08 100%);
   color: white;
@@ -207,6 +193,8 @@ cursor: pointer;
 
 #bootstrap-buttonID 
 
+
+
 /* Bootstrap "Download" */
 
 .bootstrap-button2{
@@ -218,17 +206,15 @@ cursor: pointer;
   font-size: 1rem;
   font-weight: bold;
   cursor: pointer;
-  transition:cubic-bezier(0.1, 0.885, 0.32, 1.275);
+  transition: background 0.15s, color 0.15s;
 }
 .bootstrap-button2:hover {
   background-color: rgb(108, 117, 125);
   color: white;
 }
 .bootstrap-button2:active {
-    background: rgb(86, 86, 86);
-    color: rgb(133, 133, 133);
-    padding: .5em 1em;
-    font-size: .95rem;
+  background: rgb(86, 86, 86);
+  color: rgb(133, 133, 133);
 }
 
 
@@ -257,6 +243,7 @@ cursor: pointer;
 }
 
 
+
 /* LinkedIn "Save" Button */
 
 .linkedin-button2{
@@ -281,4 +268,36 @@ cursor: pointer;
 }
 
 
+
+/* Footer Section */
+.footer {
+  background-color: #7e6678;
+  padding: .5em;
+  text-align: center;
+}
+
+.link-text {
+  font-size: 2rem;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #000000;
+  text-decoration: none;
+  transition: color 0.3s ease-in-out, text-shadow 0.3s ease-in-out;
+}
+
+.about-link {
+  color: #1247c4;
+  transition: ease-in-out 0.2s;
+}
+.about-link:hover {
+  color: #056ec4;
+}
+.about-link:active {
+  color: #ffffff;
+  text-shadow: 0 0 1em #cff5ff, 0 0 2rem #b278eb, 0 0 10rem #c093fa, 0 0 20rem #ff64ff, 0 0 30rem #a400a4, 0 0 10rem #910091, 0 0 20rem #4a054a;
+}
+
+
 /* End of CSS "buttons" file */
+/* Thank you for checking this out. I know I still have a long way to go! */
+/* - Jacob G. Kissee */
